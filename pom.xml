@@ -12,7 +12,7 @@
         <java.version>11</java.version>
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
-        <junit.version>5.3.2</junit.version>
+        <junit.version>5.7.0</junit.version>
         <project.scm.id>github</project.scm.id>
     </properties>
 
@@ -32,8 +32,8 @@
     </dependencies>
 
     <scm>
-        <developerConnection>scm:git:https://github.com/springframeworkguru/mb2g-release-plugin.git</developerConnection>
-        <url>https://github.com/springframeworkguru/mb2g-release-plugin</url>
+        <developerConnection>scm:git:https://github.com/arunprasadbh/mb2g-release-plugin.git</developerConnection>
+        <url>https://github.com/arunprasadbh/mb2g-release-plugin</url>
         <tag>HEAD</tag>
     </scm>
 
@@ -67,11 +67,11 @@
     <distributionManagement>
         <repository>
             <id>packagecloud.release</id>
-            <url>packagecloud+https://packagecloud.io/springframeworkguru/release</url>
+            <url>packagecloud+https://packagecloud.io/arunprasad_bh/release</url>
         </repository>
         <snapshotRepository>
             <id>packagecloud.snapshot</id>
-            <url>packagecloud+https://packagecloud.io/springframeworkguru/snapshot</url>
+            <url>packagecloud+https://packagecloud.io/arunprasad_bh/snapshot</url>
         </snapshotRepository>
     </distributionManagement>
 </project>
