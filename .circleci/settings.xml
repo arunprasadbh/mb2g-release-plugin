@@ -15,7 +15,7 @@
         <server>
             <id>github</id>
             <username>arunprasadbh</username>
-            <password>Notimportant1974$</password>
+            <password>${env.GIT_PWD}</password>
         </server>
     </servers>
 </settings>
